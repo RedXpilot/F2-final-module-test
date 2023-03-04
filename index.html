@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name">MyBlog.com</div>
+            <div class="newPostBtn">
+                <button id="newPostId">Create New Post</button>
+            </div>
+        </div>
+        <div class="modalShow">
+            
+             <form id="myForm">
+                <div class="topOfModal"> 
+                    <h3>Create A Post</h3>
+                    <button id="cross">X</button>
+                </div>
+                <input type="text" id="headingFromForm" placeholder="Enter your heading...">
+                <textarea id="postFromForm" placeholder="Enter your Blog Post..." rows="10"></textarea>
+                <div class="buttons">
+                    <input type="submit" id="submit" value="Submit">
+                    <!-- <submit id="publishBtn">Publish Post</submit> 
+                    <button>Cancel Post</button> -->
+                </div>
+                
+             </form>
+            
+        </div>
+        <div id="blogArea">
+
+        </div>
+    </div>
+</body>
+</html>

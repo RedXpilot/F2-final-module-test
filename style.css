@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.modalShow {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    background-color: grey;
+    width: 50%;
+    z-index: 1;
+    padding: 20px;
+} 
+
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+#blogArea {
+    padding: 20px;
+    gap:10px;
+}
+
+.topOfModal {
+    display: flex;
+    justify-content: space-between;
+}
